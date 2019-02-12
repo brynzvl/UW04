@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Squared</title>
+</head>
+
+<body>
+    <h1>Squared Numbers</h1>
+    <p>Find the squared value of any number!</p>
+
+    <button onclick=test()>Give it a try!</button>
+
+    <script>
+        function test() {
+            let value = prompt('Input a number!');
+            let result = 0;
+
+            function power() {
+                result = value * value;
+            }
+
+            power();
+            alert(value + " * 2 =" + " " + result);
+        }
+    </script>
+
+</body>
+
+</html>
